@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SADU MATE - Trà Xạ Đen Lá Sen | Sống Lành Mỗi Ngày</title>
+  <meta name="description" content="SADU MATE - Trà Xạ Đen Lá Sen 100% tự nhiên từ rừng Mường Hòa Bình. Tốt mà ngon, mang một phần đại ngàn về nhà. Khuyến mại: Mua 3 tặng 1, Mua 5 tặng 2.">
+  <meta name="keywords" content="trà xạ đen, lá sen, SADU MATE, trà tự nhiên, sống lành, wellness">
+  <meta property="og:title" content="SADU MATE - Trà Xạ Đen Lá Sen">
+  <meta property="og:description" content="Tốt mà ngon. Mang một phần đại ngàn về nhà. Sống lành không khó.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    /* Inline critical CSS for faster loading */
+    body { font-family: 'Inter', sans-serif; background: #F5F1E8; color: #2D5016; }
+    header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,0.8); backdrop-filter: blur(12px); border-bottom: 1px solid #D4C4B8; }
+  </style>
+</head>
+
+<div id="order-notification" class="order-notification">
+  <div id="order-message"></div>
+</div>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo-icon">
+          <img src="./source/images/logo mới sadu 2-02.png" alt="SADU MATE Logo">
+          <!-- <span class="logo-text">SADU MATE</span> -->
+        </div>
+        <button class="btn btn-primary" onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">
+          🛒 Đặt Hàng Ngay
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section-gradient">
+    <div class="container">
+      <div class="hero">
+        <!-- Left Content -->
+        <div class="hero-content" data-animate>
+          <div>
+            <span class="badge badge-primary">🌿 Từ Rừng Mường</span>
+            <h1 style="margin-top: 1rem;">Trà Xạ Đen Lá Sen</h1>
+            <p style="font-size: 1.25rem; color: #8B7355; font-weight: 300; line-height: 1.8; margin-top: 1rem;">
+              Tốt mà ngon. Mang một phần đại ngàn về nhà. Sống lành không khó.
+            </p>
+          </div>
+
+          <div class="grid gap-4">
+            <div class="feature-box">
+              <div class="feature-icon">🍃</div>
+              <div class="feature-content">
+                <h3>Nguyên Liệu Từ Vùng Mường Hòa Bình</h3>
+                <p>100% tự nhiên, không chất bảo quản</p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon">❤️</div>
+              <div class="feature-content">
+                <h3>Tốt Cho Sức Khỏe</h3>
+                <p>Giúp thư giãn, tập trung, sống chậm</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" style="width: fit-content; padding: 1rem 2rem; font-size: 1.125rem;" onclick="document.getElementById('order-section').scrollIntoView({behavior: 'smooth'})">
+            Khám Phá Ngay <span>→</span>
+          </button>
+        </div>
+
+        <!-- Right video -->
+    <div class="hero-video">
+    <iframe
+        src="https://www.youtube.com/embed/XCoOXYUlMrA?autoplay=1&mute=0&loop=1&playlist=XCoOXYUlMrA&controls=0&modestbranding=1&rel=0"
+        title="SADU Video"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+    </iframe>
+</div>
+</div> <!-- đóng hero -->
+</div> <!-- container -->
+
+    <!-- Organic Divider -->
+    <div class="divider">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,50 Q300,10 600,50 T1200,50 L1200,120 L0,120 Z" fill="#FFFBF7"/>
+      </svg>
+    </div>
+  </section>
+<section class="brand-story">
+  <div class="container">
+
+    <div class="story-header">
+      <span class="story-tag">🌿 CÂU CHUYỆN THƯƠNG HIỆU</span>
+
+      <h2>Hơi Rừng Mường – Hồn Thảo Mộc, Tâm SADU</h2>
+
+      <p>
+        Mỗi túi trà không chỉ là thức uống.
+        Đó là câu chuyện về rừng, về người Mường
+        và hành trình gìn giữ giá trị thảo dược Việt.
+      </p>
+    </div>
+
+    <div class="story-timeline">
+
+      <div class="story-block">
+        <div class="story-image">
+          <img src="source/images/cc (3).jpg">
+        </div>
+
+        <div class="story-content">
+          <span class="story-number">01</span>
+          <h3>Người Mường Và Cây Xạ Đen</h3>
+
+          <p>
+            Giữa núi rừng Hòa Bình, cây Xạ Đen từ lâu đã gắn bó
+            với đời sống người Mường. Người bản địa gọi cây là
+            "Duồng Khụ" – cây của đất, của niềm tin và của thời gian.
+          </p>
+        </div>
+      </div>
+
+      <div class="story-block reverse">
+        <div class="story-image">
+          <img src="source/images/cc (2).jpg">
+        </div>
+
+        <div class="story-content">
+          <span class="story-number">02</span>
+          <h3>Tinh Hoa Được Truyền Lại</h3>
+
+          <p>
+            Những chuyến đi rừng cùng các Mế đã lưu giữ kinh nghiệm
+            chọn cây, thu hái và sử dụng qua nhiều thế hệ.
+          </p>
+        </div>
+      </div>
+
+      <div class="story-block">
+        <div class="story-image">
+          <img src="source/images/cc (4).jpg">
+        </div>
+
+        <div class="story-content">
+          <span class="story-number">03</span>
+          <h3>SADU Tiếp Nối Hành Trình</h3>
+
+          <p>
+            SADU đồng hành cùng người dân địa phương phát triển
+            vùng nguyên liệu bền vững và bảo tồn giá trị cây thuốc.
+          </p>
+        </div>
+      </div>
+
+      <div class="story-block reverse">
+        <div class="story-image">
+          <img src="source/images/cc (1).jpg">
+        </div>
+
+        <div class="story-content">
+          <span class="story-number">04</span>
+          <h3>Từ Đất Đến Tách Trà</h3>
+
+          <p>
+            Mỗi túi trà được tạo nên từ sự chăm chút của đất,
+            của con người và của thời gian.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <!-- Story Section -->
+  <section class="section-white py-20">
+    <div class="container">
+      <div class="grid grid-2 items-center gap-8">
+        <div class="hero-image" data-animate>
+          <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663457672517/KEgRWEBcoXNys8khz9jc4j/sadu-forest-atmosphere-CYSZzxFTrNgMXPKJNskWkG.webp" alt="Mường Forest">
+        </div>
+        <div class="space-y-6" data-animate>
+          <h2>Hơi Rừng Mường</h2>
+          <p style="color: #8B7355; line-height: 1.8;">
+            Trong lòng rừng Mường Hòa Bình, nơi mây mù bao phủ, nơi thiên nhiên còn nguyên vẹn, SADU MATE được sinh ra từ những lá trà xạ đen quý hiếm và hoa sen thanh khiết.
+          </p>
+          <p style="color: #8B7355; line-height: 1.8;">
+            Mỗi tách trà không chỉ là một thức uống, mà là một phần của lối sống lành mạnh, một nghi thức sống chậm giữa nhịp sống vội vã.
+          </p>
+          <p style="color: #8B7355; line-height: 1.8;">
+            Chúng tôi tin rằng, sức khỏe thực sự bắt đầu từ những thói quen nhỏ hàng ngày. SADU MATE là lựa chọn hoàn hảo cho bạn.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section-gradient py-20">
+    <div class="container">
+      <h2 class="text-center mb-16">Lợi Ích Của Thói Quen Uống Trà Mỗi Ngày</h2>
+      <div class="grid grid-4">
+        <div class="card" data-animate>
+          <div style="width: 3rem; height: 3rem; border-radius: 0.5rem; background: #E8D5D0; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; font-size: 1.5rem; color: #2D5016;">🍃</div>
+          <h3>100% Tự Nhiên</h3>
+          <p style="font-size: 0.95rem; color: #8B7355;">Từ rừng Mường, không chất bảo quản</p>
+        </div>
+        <div class="card" data-animate>
+          <div style="width: 3rem; height: 3rem; border-radius: 0.5rem; background: #E8D5D0; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; font-size: 1.5rem; color: #2D5016;">❤️</div>
+          <h3>Tốt Cho Sức Khỏe</h3>
+          <p style="font-size: 0.95rem; color: #8B7355;">Giảm căng thẳng, tăng sự tập trung</p>
+        </div>
+        <div class="card" data-animate>
+          <div style="width: 3rem; height: 3rem; border-radius: 0.5rem; background: #E8D5D0; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; font-size: 1.5rem; color: #2D5016;">💧</div>
+          <h3>Hương Vị Tinh Tế</h3>
+          <p style="font-size: 0.95rem; color: #8B7355;">Vị ngọt nhẹ, hương thơm tự nhiên</p>
+        </div>
+        <div class="card" data-animate>
+          <div style="width: 3rem; height: 3rem; border-radius: 0.5rem; background: #E8D5D0; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; font-size: 1.5rem; color: #2D5016;">🏆</div>
+          <h3>Chất Lượng Cao</h3>
+          <p style="font-size: 0.95rem; color: #8B7355;">Kiểm định 100% từ Mường</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section class="section-white py-20">
+    <div class="container">
+      <div class="grid grid-2 items-center gap-8">
+        <div class="space-y-8" data-animate>
+          <h2>Trải Nghiệm Mate Khác Biệt</h2>
+          <p style="color: #8B7355; line-height: 1.8;">
+            Cốc Mate truyền thống không chỉ là một dụng cụ uống nước, mà là một phần của văn hóa, một biểu tượng của sự thân mật và chia sẻ.
+          </p>
+          <div class="space-y-4">
+            <div class="flex gap-4">
+              <div style="width: 2rem; height: 2rem; border-radius: 50%; background: #B87B8B; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; flex-shrink: 0;">1</div>
+              <div>
+                <h4 style="color: #2D5016; font-weight: 600;">Pha Trà Đơn Giản</h4>
+                <p style="font-size: 0.875rem; color: #8B7355;">Chỉ cần nước nóng và cốc Mate, bạn đã có một tách trà hoàn hảo</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div style="width: 2rem; height: 2rem; border-radius: 50%; background: #B87B8B; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; flex-shrink: 0;">2</div>
+              <div>
+                <h4 style="color: #2D5016; font-weight: 600;">Hương Vị Tinh Tế</h4>
+                <p style="font-size: 0.875rem; color: #8B7355;">Vị ngọt nhẹ, hương thơm tự nhiên, không cần đường hay hương liệu</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div style="width: 2rem; height: 2rem; border-radius: 50%; background: #B87B8B; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; flex-shrink: 0;">3</div>
+              <div>
+                <h4 style="color: #2D5016; font-weight: 600;">Nghi Thức Sống Chậm</h4>
+                <p style="font-size: 0.875rem; color: #8B7355;">Mỗi tách trà là một khoảnh khắc bình yên, một nghi thức riêng của bạn</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image" data-animate>
+          <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663457672517/KEgRWEBcoXNys8khz9jc4j/sadu-tea-ritual-Z8EgkYdAvaf5LGV6ZLi3dd.webp" alt="Tea Ritual">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="flash-sale">
+    <h2>⏰ ƯU ĐÃI KẾT THÚC SAU</h2>
+    <div id="countdown"></div>
+</section>
+
+  <!-- Order Section -->
+  <section id="order-section" class="section-gradient py-20">
+    <div class="container">
+      <h2 class="text-center mb-4">🔥 ƯU ĐÃI DUY NHẤT HÔM NAY</h2>
+      <p class="text-center text-muted mb-16" style="font-size: 1.125rem;">Chọn combo phù hợp và tiết kiệm tối đa</p>
+
+      <!-- Combo Cards -->
+      <div class="grid grid-3 mb-12">
+       <div class="combo-card" data-combo="1" data-animate>
+
+  <div class="combo-header">
+
+    <div class="combo-title">
+      <h3>1 HỘP 150G</h3>
+      <p>DÙNG THỬ</p>
+    </div>
+
+    <div class="combo-price">
+      <div class="new-price">149.000đ</div>
+    </div>
+
+  </div>
+
+  <div class="combo-savings">
+    <p>Phí vận chuyển:</p>
+    <p class="amount">30.000đ</p>
+  </div>
+
+  <button type="button" class="btn btn-secondary buy-combo-btn" data-combo="1">Mua Ngay</button>
+
+</div> 
+        <!-- Combo 3+1 -->
+        <div class="combo-card" data-combo="3" data-animate>
+<div class="combo-badge popular-badge">
+    🔥 PHỔ BIẾN NHẤT
+</div>
+          <div class="combo-header">
+            <div class="combo-title">
+              <h3>COMBO 3 HỘP</h3>
+              <p>TẶNG 1 HỘP</p>
+            </div>
+            <div class="combo-price">
+              <div class="old-price">596.000đ</div>
+              <div class="new-price">447.000đ</div>
+            </div>
+          </div>
+          <div class="combo-savings">
+            <p>Tiết kiệm:</p>
+            <p class="amount">149.000đ</p>
+          </div>
+
+<div class="combo-gift">
+    <strong>🎁 Quà tặng kèm</strong>
+    <ul>
+        <li>Ống hút trà Inox 304</li>
+        <li>Xúc trà gỗ thủ công</li>
+    </ul>
+</div>
+
+          <button type="button" class="btn btn-secondary buy-combo-btn" data-combo="3">Mua Ngay</button>
+
+</div>
+        <!-- Combo 5+2 -->
+        <div class="combo-card" data-combo="5" data-animate>
+          <div class="combo-badge">⭐ BEST DEAL</div>
+          <div class="combo-header">
+            <div class="combo-title">
+              <h3>COMBO 5 HỘP</h3>
+              <p>TẶNG 2 HỘP</p>
+            </div>
+            <div class="combo-price">
+              <div class="old-price">1.043.000đ</div>
+              <div class="new-price">745.000đ</div>
+            </div>
+          </div>
+          <div class="combo-savings">
+            <p>Tiết kiệm:</p>
+            <p class="amount">Tiết kiệm ngay 298.000đ</p>
+          </div>
+      <div class="combo-gift">
+    <strong>🎁 Quà tặng kèm</strong>
+    <ul>
+        <li>Ống hút trà Inox 304</li>
+        <li>Xúc trà gỗ thủ công</li>
+    </ul>
+</div>
+
+          <button type="button" class="btn btn-secondary buy-combo-btn" data-combo="5">Mua Ngay</button>
+
+</div>
+</div>
+
+</div>
+
+      <!-- Product Image -->
+      <div class="hero-image mb-12" data-animate>
+        <img src="source/images/form.png" alt="Product Combo">
+      </div>
+
+      <!-- Benefits Bar -->
+      <div class="benefits-bar mb-12" data-animate>
+        <div class="benefit-item">
+          <div class="benefit-item-icon">🚚</div>
+          <p>Miễn Phí Vận Chuyển</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-item-icon">🏆</div>
+          <p>Cam Kết Chất Lượng</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-item-icon">🍃</div>
+          <p>100% Tự Nhiên</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-item-icon">❤️</div>
+          <p>Trải Nghiệm Tốt</p>
+        </div>
+      </div>
+
+      <!-- Order Form -->
+      <div class="card" style="max-width: 600px; margin: 0 auto;" data-animate>
+        <h3 class="mb-6">Đặt Hàng Ngay</h3>
+        <form id="order-form">
+          <div class="form-group">
+            <label for="form-name">Họ và Tên *</label>
+            <input type="text" id="form-name" placeholder="Nhập tên của bạn" required>
+          </div>
+          <div class="form-group">
+            <label for="form-phone">Số Điện Thoại *</label>
+            <input type="tel" id="form-phone" placeholder="Nhập số điện thoại" required>
+            </div>      
+            <div class="form-group">
+              
+
+    <label for="form-address">Địa Chỉ Nhận Hàng *</label>
+    <input
+        type="text"
+        id="form-address"
+        placeholder="Nhập địa chỉ nhận hàng"
+        required> </div>
+        <div class="form-group combo-checkbox-group">
+            <label>Chọn Combo *</label>
+            <div class="combo-checkbox-item">
+                <input type="checkbox" id="combo-1" class="combo-checkbox" value="1" />
+                <label for="combo-1">1 Hộp 150g - 149.000đ (+30.000đ ship)</label>
+            </div>
+            <div class="combo-checkbox-item">
+                <input type="checkbox" id="combo-3" class="combo-checkbox" value="3" />
+                <label for="combo-3">COMBO 3 HỘP + TẶNG 1 HỘP - 447.000đ (Miễn phí ship)</label>
+            </div>
+            <div class="combo-checkbox-item">
+                <input type="checkbox" id="combo-5" class="combo-checkbox" value="5" />
+                <label for="combo-5">COMBO 5 HỘP + TẶNG 2 HỘP - 745.000đ (Miễn phí ship)</label>
+            </div>
+            <p id="combo-info-text" class="combo-info-text">Combo đã chọn: COMBO 5 HỘP + TẶNG 2 HỘP</p>
+        </div>
+          
+          <div style="padding-top: 1rem;">
+            <div class="shipping-note">
+
+🚚 Miễn phí vận chuyển cho đơn hàng từ 250.000đ
+
+</div>
+
+<p style="font-size:0.95rem;margin-bottom:1rem;">
+
+🎁 Combo 3 Hộp + Tặng 1 Hộp:
+<strong>447.000đ</strong>
+
+<br><br>
+
+🎁 Combo 5 Hộp + Tặng 2 Hộp:
+<strong>745.000đ</strong>
+
+<br><small>
+Giá gốc: 1.043.000đ
+</small>
+
+</p>
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.75rem 1.5rem; font-size: 1.125rem;">
+              🚚 ĐẶT HÀNG NGAY
+            </button>
+          </div>
+          <input type="hidden" id="selected-combo" value="5">
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="usage-guide">
+  <div class="container">
+
+    <h2>📖 Hướng Dẫn Sử Dụng</h2>
+
+    <div class="usage-grid">
+
+      <div class="usage-item">
+        <div class="usage-icon">🥄</div>
+        <h3>Bước 1</h3>
+        <p>Cho 1 thìa trà (khoảng 5g) vào ấm hoặc cốc có lõi lọc.</p>
+      </div>
+
+      <div class="usage-item">
+        <div class="usage-icon">♨️</div>
+        <h3>Bước 2</h3>
+        <p>Thêm khoảng 300ml nước sôi 100°C.</p>
+      </div>
+
+      <div class="usage-item">
+        <div class="usage-icon">⏳</div>
+        <h3>Bước 3</h3>
+        <p>Ủ trà từ 5 - 7 phút để dược chất hòa cùng hương vị.</p>
+      </div>
+
+      <div class="usage-item">
+        <div class="usage-icon">🍵</div>
+        <h3>Bước 4</h3>
+        <p>Rót trà ra ly và thưởng thức khi còn ấm.</p>
+      </div>
+
+      <div class="usage-item">
+        <div class="usage-icon">❤️</div>
+        <h3>Bước 5</h3>
+        <p>Có thể uống 2 - 3 lần mỗi ngày.</p>
+      </div>
+
+      <div class="usage-item">
+        <div class="usage-icon">🌿</div>
+        <h3>Bước 6</h3>
+        <p>Có thể thay nước uống hằng ngày như trà thanh nhiệt.</p>
+      </div>
+
+    </div>
+
+    <div class="usage-note">
+      <strong>Lưu ý:</strong><br>
+      • Không uống khi đói, nên dùng sau ăn khoảng 30 phút.<br>
+      • Không sử dụng sản phẩm đã hết hạn hoặc có dấu hiệu hư hỏng.
+    </div>
+
+  </div>
+</section>
+  <!-- FEEDBACK KHÁCH HÀNG -->
+<section class="feedback-section">
+
+  <div class="container">
+
+    <h2 class="feedback-title">
+      💬 Khách Hàng Đã Nói Gì?
+    </h2>
+
+    <p class="feedback-subtitle">
+      Hàng nghìn khách hàng đã sử dụng SADU MATE và phản hồi tích cực
+    </p>
+
+    <div class="feedback-slider">
+
+      <div class="feedback-slide active">
+        <img src="source/images/Fb (1).png" alt="Feedback khách hàng">
+      </div>
+
+      <div class="feedback-slide">
+        <img src="source/images/Fb (2).png" alt="Feedback khách hàng">
+      </div>
+
+      <div class="feedback-slide">
+        <img src="source/images/Fb (3).png" alt="Feedback khách hàng">
+      </div>
+          <div class="feedback-slide">
+        <img src="source/images/Fb (4).png" alt="Feedback khách hàng">
+      </div>
+          <div class="feedback-slide">
+        <img src="source/images/Fb (5).png" alt="Feedback khách hàng">
+      </div>
+      <div class="feedback-slide">
+        <img src="source/images/Fb (6).png" alt="Feedback khách hàng">
+      </div>
+
+
+
+      <button class="feedback-prev">❮</button>
+      <button class="feedback-next">❯</button>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- Testimonials Section -->
+  <section class="section-white py-20">
+    <div class="container">
+      <h2 class="text-center mb-4">Khách Hàng Nói Gì Về SADU MATE</h2>
+      <p class="text-center text-muted mb-16" style="font-size: 1.125rem;">Hơn 1000+ khách hàng đã trải nghiệm sự thay đổi tích cực</p>
+
+      <div class="grid grid-3">
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍💼</div>
+            <div class="testimonial-info">
+              <h4>Linh Nguyễn</h4>
+              <p>Nhân viên văn phòng</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Tôi uống mỗi sáng thay cà phê, cảm giác nhẹ nhàng hơn rất nhiều."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👨‍💼</div>
+            <div class="testimonial-info">
+              <h4>Minh Trần</h4>
+              <p>Chủ doanh nghiệp</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Mình thích nhất là cách pha bằng cốc Mate, rất tiện và sang trọng."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍🦰</div>
+            <div class="testimonial-info">
+              <h4>Hoa Đặng</h4>
+              <p>Mẹ bỉm sữa</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Đặt combo 5 tặng 2 cho cả nhà dùng luôn, tiết kiệm được 378k."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👨‍🦱</div>
+            <div class="testimonial-info">
+              <h4>Hùng Lê</h4>
+              <p>Người trung niên</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Uống khi đọc sách buổi tối rất thư giãn, cảm thấy bình yên."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍🦳</div>
+            <div class="testimonial-info">
+              <h4>Tâm Phạm</h4>
+              <p>Yêu lối sống lành mạnh</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Cảm giác như tạo được một nghi thức sống chậm cho riêng mình."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👨‍💻</div>
+            <div class="testimonial-info">
+              <h4>Duy Hoàng</h4>
+              <p>Nhân viên văn phòng</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Trà này giúp tôi giảm căng thẳng, năng suất làm việc tăng lên."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍🦱</div>
+            <div class="testimonial-info">
+              <h4>Lan Võ</h4>
+              <p>Mẹ bỉm sữa</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Con tôi rất thích mùi hương tự nhiên, không có hóa chất."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">🧘‍♂️</div>
+            <div class="testimonial-info">
+              <h4>Khoa Ngô</h4>
+              <p>Người yêu yoga</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Uống trước buổi yoga giúp tôi tập trung hơn, thư thái hơn."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍💼</div>
+            <div class="testimonial-info">
+              <h4>Hương Lý</h4>
+              <p>Chủ doanh nghiệp</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Tặng khách hàng combo SADU MATE, họ rất ấn tượng."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👨‍🦲</div>
+            <div class="testimonial-info">
+              <h4>Tuấn Đỗ</h4>
+              <p>Người trung niên</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Sức khỏe tốt hơn sau 2 tuần uống đều đặn mỗi ngày."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍🦱</div>
+            <div class="testimonial-info">
+              <h4>Hải Phương</h4>
+              <p>Yêu lối sống lành mạnh</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Chất lượng tuyệt vời, giá cả hợp lý, rất đáng mua."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍💼</div>
+            <div class="testimonial-info">
+              <h4>Tú Lê</h4>
+              <p>Nhân viên văn phòng</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Mình đã giới thiệu cho 5 bạn, tất cả đều yêu thích."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍🦰</div>
+            <div class="testimonial-info">
+              <h4>Bảo Trương</h4>
+              <p>Mẹ bỉm sữa</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Trà này an toàn cho cả gia đình, mình rất yên tâm."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👨‍🦳</div>
+            <div class="testimonial-info">
+              <h4>Quân Nguyễn</h4>
+              <p>Người trung niên</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Mỗi tối uống một tách, cảm thấy cuộc sống bình yên hơn."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial" data-animate>
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">👩‍🦱</div>
+            <div class="testimonial-info">
+              <h4>Liên Cao</h4>
+              <p>Yêu lối sống lành mạnh</p>
+            </div>
+          </div>
+          <p class="testimonial-text">"Sản phẩm chất lượng cao, đóng gói đẹp, rất hài lòng."</p>
+          <div class="testimonial-stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section-dark py-20">
+    <div class="container text-center">
+      <h2 style="color: white; margin-bottom: 1rem;">Sẵn Sàng Bắt Đầu Hành Trình Sống Lành?</h2>
+      <p style="font-size: 1.25rem; color: #E8D5D0; max-width: 600px; margin: 0 auto 2rem;">
+        Mỗi tách SADU MATE là một bước nhỏ hướng tới cuộc sống bình yên, khỏe mạnh và ý nghĩa hơn.
+      </p>
+      <button class="btn btn-secondary" style="background: white; color: #2D5016; border: none; padding: 1rem 2rem; font-size: 1.125rem;" onclick="document.getElementById('order-section').scrollIntoView({behavior: 'smooth'})">
+        Đặt Hàng Ngay <span>→</span>
+      </button>
+    </div>
+  </section>
+<section class="faq">
+
+<h2>Câu hỏi thường gặp</h2>
+
+<details>
+
+<summary>
+Trà có dễ uống không?
+</summary>
+
+<p>
+Trà có vị thanh nhẹ, dễ uống hằng ngày.
+</p>
+
+</details>
+
+<details>
+
+<summary>
+Bao lâu nhận hàng?
+</summary>
+
+<p>
+Từ 2 đến 5 ngày.
+</p>
+
+</details>
+
+<details>
+
+<summary>
+Có được kiểm hàng không?
+</summary>
+
+<p>
+Có. Khách được kiểm tra trước khi thanh toán.
+</p>
+
+</details>
+
+</section>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="flex gap-2 mb-4" style="align-items: center;">
+            <span style="font-size: 1.5rem;">🌿</span>
+            <span style="font-size: 1.25rem; font-weight: 700;">SADU MATE</span>
+          </div>
+          <p>Trà Xạ Đen Lá Sen từ rừng Mường Hòa Bình</p>
+        </div>
+        <div class="footer-section">
+          <h4>Liên Hệ</h4>
+          <p>Email: info@sadumate.com</p>
+          <p>Hotline: 19008952</p>
+        </div>
+        <div class="footer-section">
+          <h4>Theo Dõi</h4>
+          <p>Facebook | Instagram | TikTok</p>
+        </div>
+      </div>
+      <div class="footer-divider">
+        <p>© 2024 SADU MATE. Tất cả quyền được bảo lưu.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="sticky-buy">
+    <a href="#order-section">
+        🛒 ĐẶT HÀNG NGAY
+    </a>
+</div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
