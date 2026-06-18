@@ -663,7 +663,7 @@ section {
   background: rgba(45, 80, 22, 0.06);
 }
 
-.combo-checkbox-group .combo-checkbox-item input[type="checkbox"] {
+.combo-checkbox-group .combo-checkbox-item input[type="radio"] {
   margin: 0;
   width: 1.2rem;
   height: 1.2rem;
@@ -677,7 +677,7 @@ section {
   cursor: pointer;
 }
 
-.combo-checkbox-group .combo-checkbox-item input[type="checkbox"]:checked + label {
+.combo-checkbox-group .combo-checkbox-item input[type="radio"]:checked + label {
   color: var(--primary);
   font-weight: 700;
 }

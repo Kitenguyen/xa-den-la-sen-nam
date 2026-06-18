@@ -43,17 +43,13 @@ function initComboSelection() {
     updateCheckboxUI();
   };
 
-  const setComboSelection = function (comboValue, checked) {
+  const setComboSelection = function (comboValue) {
     comboCheckboxes.forEach(input => {
-      if (input.value === comboValue) {
-        input.checked = checked;
-      }
+      input.checked = (input.value === comboValue);
     });
 
     comboCards.forEach(card => {
-      if (card.getAttribute('data-combo') === comboValue) {
-        card.classList.toggle('active', checked);
-      }
+      card.classList.toggle('active', card.getAttribute('data-combo') === comboValue);
     });
 
     updateSelectedCombos();
@@ -62,16 +58,15 @@ function initComboSelection() {
   comboCards.forEach(card => {
     card.addEventListener('click', function () {
       const comboValue = this.getAttribute('data-combo');
-      const checkbox = document.querySelector(`.combo-checkbox[value="${comboValue}"]`);
-      const newState = checkbox ? !checkbox.checked : true;
-      setComboSelection(comboValue, newState);
+      setComboSelection(comboValue);
     });
   });
 
   comboCheckboxes.forEach(input => {
     input.addEventListener('change', function () {
-      const comboValue = this.value;
-      setComboSelection(comboValue, this.checked);
+      if (this.checked) {
+        setComboSelection(this.value);
+      }
     });
   });
 
@@ -80,7 +75,7 @@ function initComboSelection() {
       event.preventDefault();
       event.stopPropagation();
       const comboValue = this.getAttribute('data-combo');
-      setComboSelection(comboValue, true);
+      setComboSelection(comboValue);
       const orderForm = document.getElementById('order-form');
       if (orderForm) {
         orderForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -89,7 +84,7 @@ function initComboSelection() {
   });
 
   // Set default selection to combo 5
-  setComboSelection('5', true);
+  setComboSelection('5');
 }
 
 function updateComboInfo(selectedValues, comboMap) {
@@ -130,7 +125,7 @@ function initFormSubmission() {
       }
 
       const comboMap = {
-        '1': { label: '1 Hộp 150g (149.000đ + 30.000đ ship)', total: 229000 },
+        '1': { label: '1 Hộp 150g (149.000đ + 30.000đ ship)', total: 179000 },
         '3': { label: 'Combo 3 Hộp + Tặng 1', total: 447000 },
         '5': { label: 'Combo 5 Hộp + Tặng 2', total: 745000 }
       };
